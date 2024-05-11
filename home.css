@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Electrolize&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/* font-family: "Kurale", serif; */
+/*  font-family: "Electrolize", sans-serif; */
+/* font-family: "Black Ops One", system-ui; */
+/*   font-family: "Russo One", sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.navbar-container {
+    background-image: linear-gradient(to top, #d9afd9 0%, #59acb6 100%);
+    font-family: "Electrolize", sans-serif; 
+    height: 65px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid gray;
+}
+
+.navbar-logo {
+    height: 70px;
+}
+
+.navbar-names {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input-box {
+    width: 320px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+}
+
+.signup-btn {
+    background-image: radial-gradient( circle 1292px at -13.6% 51.7%,  rgba(0,56,68,1) 0%, rgba(163,217,185,1) 51.5%, rgba(255,252,247,1) 88.6% );
+    padding: 10px 20px;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.img-theme {
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 3px;
+}
+
+.home-img{
+    width: 100%;
+}
+
+.city-heading{
+    font-size: 45px;
+    text-align: inherit;
+    font-family: "Kurale", serif;
+    top: 200px;
+    left: 60px;
+    position: absolute;
+    color: rgb(26, 6, 71);
+}
