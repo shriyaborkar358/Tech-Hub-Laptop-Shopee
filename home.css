@@ -4,11 +4,9 @@
 /*  font-family: "Electrolize", sans-serif; */
 /* font-family: "Black Ops One", system-ui; */
 /*   font-family: "Russo One", sans-serif; */
-
-body {
-    margin: 0;
+body{
     padding: 0;
-    background-color: antiquewhite;
+    margin: 0;
 }
 
 .navbar-container {
@@ -58,6 +56,7 @@ body {
 }
 
 .home-img{
+    height: 90vh;
     width: 100%;
 }
 
@@ -69,4 +68,44 @@ body {
     left: 60px;
     position: absolute;
     color: rgb(26, 6, 71);
+}
+
+/* media querry */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .navbar-container {
+        padding: 10px;
+    }
+
+    .navbar-names {
+        font-size: 16px;
+    }
+
+    .input-box{
+        width: 250px;
+    }
+
+    .city-heading{
+        top: 240px;
+        left: 50px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    .navbar-names {
+        font-size: 12px;
+    }
+
+    .input-box{
+        width: 150px;
+    }
+
+    .city-heading{
+        top: 250px;
+        left: 50px;
+        font-size: 30px;
+    }
+
 }
