@@ -14,6 +14,9 @@ body{
     font-family: "Electrolize", sans-serif; 
     height: 65px;
     padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -60,7 +63,7 @@ body{
     width: 100%;
 }
 
-.city-heading{
+.laptop-heading{
     font-size: 45px;
     text-align: inherit;
     font-family: "Kurale", serif;
@@ -69,6 +72,112 @@ body{
     position: absolute;
     color: rgb(26, 6, 71);
 }
+
+.lap-img{
+    width: 100%;
+    height: 40vh;
+    margin-top: 100px;
+    position: relative;
+}
+
+.head{
+    align-items: justify;
+    font-family: "Kurale", serif;
+    font-size: 30px;
+    bottom: -300px;
+    left: 600px;
+    position: absolute;
+    
+}
+
+.laptops-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.laptop-type-container{
+    height: 250px;
+    width: 300px;
+}
+
+.laptop-type-container:hover{
+    background-color: rgb(216, 228, 224);
+    border-radius: 20px;
+}
+
+.types{
+    text-align: center;
+    font-family: "Kurale", serif;
+}
+
+.laptop-types{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.service-heading{
+    text-align: center;
+    font-size: 60px;
+    color: brown;
+    margin-top: 80px;
+    font-family: "Kurale", serif;
+}
+
+.laptop-service-types{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin: 20px auto;
+}
+
+.services-img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.laptop-service-container{
+    height: 180px;
+    width: 220px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #d9afd9;
+}
+
+.laptop-types-2{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.laptop-type-container-2{
+    height: 320px;
+    width: 250px;
+}
+
+.best-place-visit-btn {
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: rgb(26, 22, 22);
+    color: white;
+    border-radius: 50px;
+    margin-left: 65px;
+}
+
+.best-place-visit-btn:hover {
+    padding: 7px 25px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 
 /* media querry */
 
@@ -90,6 +199,17 @@ body{
         left: 50px;
         font-size: 35px;
     }
+
+    .lap-img{
+        margin-top: 100px;
+    }
+    
+    .head{
+        font-size: 30px;
+        bottom: -300px;
+        left: 300px;    
+    }
+    
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -102,10 +222,20 @@ body{
         width: 150px;
     }
 
-    .city-heading{
-        top: 250px;
+    .laptop-heading{
+        top: 320px;
         left: 50px;
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    .lap-img{
+        margin-top: 100px;
+    }
+    
+    .head{
+        font-size: 28px;
+        bottom: -300px;
+        left: 160px;    
     }
 
 }
