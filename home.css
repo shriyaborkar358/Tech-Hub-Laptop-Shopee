@@ -149,6 +149,10 @@ body{
     background-color: #d9afd9;
 }
 
+.laptop-service-container:hover{
+    border: 2px solid black;
+}
+
 .laptop-types-2{
     display: flex;
     align-items: center;
@@ -176,6 +180,25 @@ body{
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+.laptop-logo{
+    height: 80px;
+    width: 200px;
+    margin: 20px;
+}
+
+.laptop-cards{
+    display: flex;
+    align-items: center;
+    height: 350px;
+    margin: 5px auto;
+    border-radius: 20px;
+}
+
+.card-img{
+    height: 320px;
+    width: 250px;
 }
 
 
