@@ -10,7 +10,7 @@ body{
 }
 
 .navbar-container {
-    background-image: linear-gradient(to top, #d9afd9 0%, #59acb6 100%);
+    background-color: rgb(143, 150, 171);
     font-family: "Electrolize", sans-serif; 
     height: 65px;
     padding: 15px;
@@ -24,12 +24,12 @@ body{
 }
 
 .navbar-logo {
-    height: 70px;
+    height: 100px;
 }
 
 .navbar-names {
     text-decoration: none;
-    color: black;
+    color: rgb(16, 15, 15);
     font-size: 25px;
     font-weight: bold;
 }
@@ -105,7 +105,7 @@ body{
 }
 
 .laptop-type-container:hover{
-    background-color: rgb(216, 228, 224);
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     border-radius: 20px;
 }
 
@@ -167,7 +167,7 @@ body{
     width: 250px;
 }
 
-.best-place-visit-btn {
+.buy-now-btn {
     font-size: 15px;
     padding: 5px 20px;
     background-color: rgb(26, 22, 22);
@@ -176,7 +176,7 @@ body{
     margin-left: 65px;
 }
 
-.best-place-visit-btn:hover {
+.buy-now-btn:hover {
     padding: 7px 25px;
     background-color: white;
     color: black;
@@ -221,12 +221,71 @@ body{
     top: 300px;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(143, 150, 171);
+    color: black;
+    margin-top: 50px;
+}
+
+.footer-img {
+    height: 200px; 
+    margin-top: 30px;
+}
+
+.footer-quick-links {
+    font-style: italic;
+    height: 180px;
+    width: 200px;
+    color: black;
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: left;
+   
+}
+.footer-items{
+    text-decoration: none;
+    color: rgb(6, 4, 4);
+}
+
+.footer-useful-link {
+    height: 180px;
+    width: 200px;
+    color: rgb(10, 9, 9);
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+.footer-contact {
+    height: 180px;
+    width: 200px;
+    color: rgb(14, 12, 12);
+    margin: 10px;
+    padding: 20px 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+.footer-icon {
+    font-size: 26px;
+    margin: 10px;
+
+}
+
 
 /* media querry */
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     .navbar-container {
         padding: 10px;
+    }
+
+    .navbar-logo {
+        height: 60px;
     }
 
     .navbar-names {
@@ -261,8 +320,12 @@ body{
         font-size: 12px;
     }
 
+    .navbar-logo {
+        height: 60px;
+    }
+
     .input-box{
-        width: 150px;
+        width: 130px;
     }
 
     .laptop-heading{
