@@ -66,3 +66,13 @@
 .sub-btn:hover{
     box-shadow: 0 2px 2px 1px gray;
 }
+
+.shop-information{
+    margin-top: 50px;
+}
+
+.information{
+    font-size: 20px;
+    font-family: "Electrolize", sans-serif;
+    margin: 15px 80px;
+}
