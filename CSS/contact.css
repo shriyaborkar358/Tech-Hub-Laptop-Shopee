@@ -51,3 +51,18 @@
     font-size: 15px;
 }
 
+.sub-btn{
+    position: absolute;
+    top: 90px;
+    right: 230px;
+    margin: 5px;
+    padding: 13.5px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.sub-btn:hover{
+    box-shadow: 0 2px 2px 1px gray;
+}
