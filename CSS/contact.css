@@ -2,3 +2,9 @@
     height: 70vh;
     width: 100%;
 }
+
+.contacts-container{
+    height: 170px;
+    width: 100%;
+    background-color: rgb(143, 150, 171);
+}
