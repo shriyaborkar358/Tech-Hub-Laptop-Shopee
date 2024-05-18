@@ -1,0 +1,30 @@
+.home-img-con{
+    position: relative;
+}
+
+.headi{
+    text-align: center;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    font-family: "Black Ops One", system-ui;
+    top: 150px;
+    margin: 170px;
+}
+
+.buy-btn{
+    position: absolute;
+    padding: 10px 80px;
+    font-size: 20px;
+    border-radius: 20px;
+    top: 65%;
+    left: 40%;
+    border: none;
+    color: white;
+    background-color: rgb(43, 39, 39);
+}
+
+.buy-btn:hover{
+    color: black ;
+    background-color: white;
+}

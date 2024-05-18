@@ -44,3 +44,29 @@ function imgChange() {
          break;
    }
 }
+
+function imagesChange() {
+   const imagesElement = document.getElementById("lappy-shop")
+   const min = 1;
+   const max = 4;
+   const mathsElement = Math.round(Math.random() * (max - min) + (min));
+
+   console.log(mathsElement)
+   switch (mathsElement) {
+      case (1):
+         imagesElement.src = "./../images/laptop-store-img/laptop-store-1.jpg";
+         break;
+
+      case (2):
+         imagesElement.src = "./../images/laptop-store-img/laptop-store-2.jpg";
+         break;
+
+      case (3):
+         imagesElement.src = "./../images/laptop-store-img/laptop-store-3.jpg";
+         break;
+
+      case (4):
+         imagesElement.src = "./../images/laptop-store-img/laptop-store-4.jpg";
+         break;
+   }
+}

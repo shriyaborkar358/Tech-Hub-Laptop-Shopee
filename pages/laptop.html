@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laptop page</title>
     <link rel="stylesheet" href="./../home.css" />
+    <link rel="stylesheet" href="./../CSS/laptop.css" />
 </head>
 
 <body id="body">
 
-<!----Navbar Container-->
+    <!----Navbar Container-->
 
-    <div class="navbar-container"> 
-        <img src="./../images/tech-web-logo.png" class="navbar-logo"/>
+    <div class="navbar-container">
+        <img src="./../images/tech-web-logo.png" class="navbar-logo" />
         <a href="./../index.html" class="navbar-names">Home</a>
         <input type="search" class="input-box" placeholder="Search Products">
         <a href="./../pages/laptop.html" class="navbar-names">Laptops</a>
@@ -28,6 +29,16 @@
         </div>
     </div>
 
-    <img src="./../images/laptop-store-img/laptop-store-1.jpg" class="home-img"/>
-    </body>
-    </html>
+    <div class="home-img-con">
+        <img src="./../images/laptop-store-img/laptop-store-1.jpg" class="home-img" id="lappy-shop" onmouseover="imagesChange()" />
+        <img src="./../images/left-chevron.png" class="left-arrow-change" onclick="imagesChange()" />
+        <img src="./../images/right-chevron.png" class="right-arrow-change" onclick="imagesChange()" />
+    </div>
+
+    <h1 class="headi">Experience & Trusted by Millions of People Since 2007</h1>
+    <button type="button" class="buy-btn">Buy Now</button>
+
+
+    <script src="./../javascript/index.js"> </script>
+</body>
+</html>
