@@ -113,3 +113,42 @@
         right: 110px;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 994px) {
+
+    .contact-img{
+        height: 50vh;
+    }
+    
+    .follow-socials{
+        font-size: 18px;
+        top: 80px;
+        left: 80px;
+    }
+    
+    .follow-socials-app{
+        top: 35px;
+        left: 40px;
+    }
+    
+    .social-icon{
+        height: 40px;
+        margin: 7px;
+    }
+    
+    .sign-up-seller{
+        top: 26px;
+        right: 135px;
+    }
+
+    .email-input{
+        width: 320px;
+        right: 70px;
+        top: 70px;
+    }
+
+    .sub-btn{
+        top: 70.5px;
+        right: 60px;
+    }
+}

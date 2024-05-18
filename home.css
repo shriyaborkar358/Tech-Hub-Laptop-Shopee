@@ -127,7 +127,7 @@ body{
     justify-content: space-around;
     position: fixed;
     right: 20px;
-    top: 600px;
+    top: 500px;
     z-index: 100;
 }
 
@@ -217,11 +217,15 @@ body{
     width: 250px;
 }
 
-
 .home-img-container{
     margin-top: 50px;
     position: relative
 }
+
+.home-img-1{
+    width: 100%;
+}
+
 .left-arrow-change{
     height: 40px;
     position: absolute;
@@ -326,6 +330,18 @@ body{
         bottom: -300px;
         left: 300px;    
     }
+
+    .left-arrow-change{
+        height: 30px;
+        left: 30px;
+        top: 200px;
+    }
+    
+    .right-arrow-change{
+        height: 30px;
+        right: 30px;
+        top: 200px;
+    }
     
 }
 
@@ -357,6 +373,5 @@ body{
         font-size: 28px;
         bottom: -300px;
         left: 160px;    
-    }
-
+    }   
 }
