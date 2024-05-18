@@ -76,3 +76,40 @@
     font-family: "Electrolize", sans-serif;
     margin: 20px 80px;
 }
+
+/* media querry */
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .contact-img{
+        height: 60vh;
+    }
+    
+    .follow-socials{
+        top: 80px;
+        left: 80px;
+    }
+    
+    .follow-socials-app{
+        top: 35px;
+        left: 40px;
+    }
+    
+    .social-icon{
+        height: 45px;
+        margin: 10px;
+    }
+    
+    .sign-up-seller{
+        top: 40px;
+        right: 250px;
+    }
+
+    .email-input{
+        right: 110px;
+    }
+
+    .sub-btn{
+        right: 110px;
+    }
+}
