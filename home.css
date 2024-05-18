@@ -121,6 +121,21 @@ body{
     margin: 20px auto;
 }
 
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    right: 20px;
+    top: 600px;
+    z-index: 100;
+}
+
+.contact-icon{
+ height: 50px;
+ margin: 5px;
+}
+
 .service-heading{
     text-align: center;
     font-size: 60px;
