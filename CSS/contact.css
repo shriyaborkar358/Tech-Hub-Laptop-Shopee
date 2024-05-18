@@ -77,6 +77,10 @@
     margin: 20px 80px;
 }
 
+.map{
+    margin: 30px 100px;
+}
+
 /* media querry */
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
