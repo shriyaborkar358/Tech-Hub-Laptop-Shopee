@@ -70,3 +70,35 @@ function imagesChange() {
          break;
    }
 }
+
+function inc() {
+   const quantityText = document.getElementById("quantity-text");
+   const showQuantity = document.getElementById("show-quantity");
+   const showTotal = document.getElementById("show-total");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity < 5) {
+       quantityText.innerText = ++quantity;
+   }
+   else {
+       alert("you cann't add more than 5 items ")
+   }
+   showQuantity.innerText = `Item : ${quantity} x 73,148`;
+
+   showTotal.innerText = `Total: ${quantity * 73148}`;
+}
+
+function dec() {
+   const quantityText = document.getElementById("quantity-text");
+   const showQuantity = document.getElementById("show-quantity");
+   const showTotal = document.getElementById("show-total");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity > 1) {
+       quantityText.innerText = --quantity;
+   }
+   else {
+       alert("you cann't add less than 1 items")
+   }
+   showQuantity.innerText = `Item : ${ quantity } X 73,148`;
+   showTotal.innerText = `Total : ${quantity * 73148}`;
+
+}

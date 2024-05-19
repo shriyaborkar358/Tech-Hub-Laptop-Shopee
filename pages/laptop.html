@@ -30,7 +30,8 @@
     </div>
 
     <div class="home-img-con">
-        <img src="./../images/laptop-store-img/laptop-store-1.jpg" class="home-img" id="lappy-shop" onmouseover="imagesChange()" />
+        <img src="./../images/laptop-store-img/laptop-store-1.jpg" class="home-img" id="lappy-shop"
+            onmouseover="imagesChange()" />
         <img src="./../images/left-chevron.png" class="left-arrow-change" onclick="imagesChange()" />
         <img src="./../images/right-chevron.png" class="right-arrow-change" onclick="imagesChange()" />
     </div>
@@ -63,7 +64,29 @@
 
     <h4 class="service-heading">NEW LAPTOS</h4>
 
+    <div class="container-card">
+        <div class="product-card">
+            <img src="./../images/laptop-store-img/dell-1.jpg" class="laptop-card-img" />
+            <div class="card-body">
+                <h1 class="product-title">Dell laptop</h1>
+                <p class="product-description">
+                    Dell Gaming G15 5520 ( D560822WIN9B) | Core I5-12500H / 16GB DDR4 / 512GB SSD/ Win 11/ 15.6"FHD
+                </p>
+                <p class="product-price">Price : ₹73,148</p>
+                <h3 id="show-quantity">Item : 1 x 73,148</h3>
+                <h3 id="show-total">Total : 73148</h3>
+                <div class="quantity-btn-container">
+                    <img src="./../images/laptop-store-img/minus.png" class="btn-quantity" onclick="dec()" />
+                    <span class="quantity-text" id="quantity-text">1</span>
+                    <img src="./../images/laptop-store-img/plus.png" class="btn-quantity" onclick="inc()" />
+                </div>
+                <button type="button" class="buy-now-btns">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
 
     <script src="./../javascript/index.js"> </script>
 </body>
+
 </html>

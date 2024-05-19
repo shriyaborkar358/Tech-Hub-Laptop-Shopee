@@ -28,3 +28,82 @@
     color: black ;
     background-color: white;
 }
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.product-card {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    width: 300px;
+    border-radius: 20px;
+    height: 560px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    padding: 6px 10px ;
+}
+
+.laptop-card-img {
+    width: 250px;
+    height: 170px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.card-body {
+    margin-left: 10px;
+}
+
+.product-title {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+.product-description {
+    font-size: 16px;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.quantity-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-quantity {
+    height: 10px;
+    background-color: rgb(196, 166, 128);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.quantity-text {
+    font-size: 25px;
+    margin: auto 10px;
+}
+
+.buy-now-btns{
+    background-color: rgb(196, 166, 128);
+
+    border: none;
+    font-size: 20px;
+    padding: 5px 30px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
