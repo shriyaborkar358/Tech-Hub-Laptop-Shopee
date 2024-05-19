@@ -100,7 +100,6 @@ function dec1() {
    }
    showQuantity.innerText = `Item : ${quantity} X 73,148`;
    showTotal.innerText = `Total : ${quantity * 73148}`;
-
 }
 
 function inc2() {
@@ -132,6 +131,36 @@ function dec2() {
    }
    showQuantity.innerText = `Item : ${quantity} X 83,780`;
    showTotal.innerText = `Total : ${quantity * 83780}`;
+}
 
+function inc3() {
+   const quantityText = document.getElementById("quantity-text-3");
+   const showQuantity = document.getElementById("show-quantity-3");
+   const showTotal = document.getElementById("show-total-3");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity < 5) {
+      quantityText.innerText = ++quantity;
+   }
+   else {
+      alert("you cann't add more than 5 items ")
+   }
+   showQuantity.innerText = `Item : ${quantity} x 40,960`;
+
+   showTotal.innerText = `Total: ${quantity * 40960}`;
+}
+
+function dec3() {
+   const quantityText = document.getElementById("quantity-text-3");
+   const showQuantity = document.getElementById("show-quantity-3");
+   const showTotal = document.getElementById("show-total-3");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity > 1) {
+      quantityText.innerText = --quantity;
+   }
+   else {
+      alert("you cann't add less than 1 items")
+   }
+   showQuantity.innerText = `Item : ${quantity} X 40,960`;
+   showTotal.innerText = `Total : ${quantity * 40960}`;
 }
 
