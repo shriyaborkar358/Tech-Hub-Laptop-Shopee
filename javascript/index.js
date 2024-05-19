@@ -82,7 +82,7 @@ function inc1() {
    else {
       alert("you cann't add more than 5 items ")
    }
-   showQuantity.innerText = `Item : ${quantity} x 73,148`;
+   showQuantity.innerText = `Item : ${quantity} X 73,148`;
 
    showTotal.innerText = `Total: ${quantity * 73148}`;
 }
@@ -113,7 +113,7 @@ function inc2() {
    else {
       alert("you cann't add more than 5 items ")
    }
-   showQuantity.innerText = `Item : ${quantity} x 83,780`;
+   showQuantity.innerText = `Item : ${quantity} X 83,780`;
 
    showTotal.innerText = `Total: ${quantity * 83780}`;
 }
@@ -144,7 +144,7 @@ function inc3() {
    else {
       alert("you cann't add more than 5 items ")
    }
-   showQuantity.innerText = `Item : ${quantity} x 40,960`;
+   showQuantity.innerText = `Item : ${quantity} X 40,960`;
 
    showTotal.innerText = `Total: ${quantity * 40960}`;
 }
@@ -175,7 +175,7 @@ function inc4() {
    else {
       alert("you cann't add more than 5 items ")
    }
-   showQuantity.innerText = `Item : ${quantity} x 28,999`;
+   showQuantity.innerText = `Item : ${quantity} X 28,999`;
 
    showTotal.innerText = `Total: ${quantity * 28999}`;
 }

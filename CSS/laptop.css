@@ -21,6 +21,7 @@
     left: 40%;
     border: none;
     color: white;
+    cursor: pointer;
     background-color: rgb(43, 39, 39);
 }
 
@@ -42,7 +43,16 @@
     height: 560px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 5px;
-    padding: 6px 10px ;
+    padding: 10px 8px ;
+    position: relative;
+}
+
+.heart{
+    height: 35px;
+    right: 5px;
+    top: 3px;
+    position: absolute;
+    cursor: pointer;
 }
 
 .laptop-card-img {
@@ -89,6 +99,7 @@ h3{
     background-color: rgb(196, 166, 128);
     border-radius: 50%;
     padding: 20px;
+    cursor: pointer;
 }
 
 .quantity-text {
@@ -98,12 +109,11 @@ h3{
 
 .buy-now-btns{
     background-color: rgb(196, 166, 128);
-
-    border: none;
     font-size: 20px;
     padding: 5px 30px;
     display: block;
     margin: 10px auto;
     border-radius: 20px;
+    border: none;
     cursor: pointer;
 }
