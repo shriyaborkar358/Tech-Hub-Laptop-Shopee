@@ -311,3 +311,16 @@ function dec8() {
    showTotal.innerText = `Total : ${quantity * 5399}`;
 }
 
+function like8() {
+   const likeButton = document.getElementById("like8")
+   if (toggleLike) {
+       likeButton.src = "./../images/laptop-store-img/red-like.png";
+
+       toggleLike = false;
+   }
+   else {
+       likeButton.src = "./../images/laptop-store-img/blank-like.png";
+
+       toggleLike = true;
+   }
+}
