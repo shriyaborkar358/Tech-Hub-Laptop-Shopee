@@ -97,3 +97,31 @@ function like7() {
         toggleLike = true;
     }
 }
+
+function like8() {
+    const likeButton = document.getElementById("like8")
+    if (toggleLike) {
+        likeButton.src = "./../images/laptop-store-img/red-like.png";
+ 
+        toggleLike = false;
+    }
+    else {
+        likeButton.src = "./../images/laptop-store-img/blank-like.png";
+ 
+        toggleLike = true;
+    }
+ }
+
+ function like9() {
+    const likeButton = document.getElementById("like9")
+    if (toggleLike) {
+        likeButton.src = "./../images/laptop-store-img/red-like.png";
+ 
+        toggleLike = false;
+    }
+    else {
+        likeButton.src = "./../images/laptop-store-img/blank-like.png";
+ 
+        toggleLike = true;
+    }
+ }

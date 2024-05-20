@@ -311,16 +311,33 @@ function dec8() {
    showTotal.innerText = `Total : ${quantity * 5399}`;
 }
 
-function like8() {
-   const likeButton = document.getElementById("like8")
-   if (toggleLike) {
-       likeButton.src = "./../images/laptop-store-img/red-like.png";
-
-       toggleLike = false;
+function inc9() {
+   const quantityText = document.getElementById("quantity-text-9");
+   const showQuantity = document.getElementById("show-quantity-9");
+   const showTotal = document.getElementById("show-total-9");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity < 5) {
+      quantityText.innerText = ++quantity;
    }
    else {
-       likeButton.src = "./../images/laptop-store-img/blank-like.png";
-
-       toggleLike = true;
+      alert("you cann't add more than 5 items ")
    }
+   showQuantity.innerText = `Item : ${quantity} X 8,999`;
+   showTotal.innerText = `Total: ${quantity * 8999}`;
 }
+
+function dec9() {
+   const quantityText = document.getElementById("quantity-text-9");
+   const showQuantity = document.getElementById("show-quantity-9");
+   const showTotal = document.getElementById("show-total-9");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity > 1) {
+      quantityText.innerText = --quantity;
+   }
+   else {
+      alert("you cann't add less than 1 items")
+   }
+   showQuantity.innerText = `Item : ${quantity} X 8,999`;
+   showTotal.innerText = `Total : ${quantity * 8999}`;
+}
+
