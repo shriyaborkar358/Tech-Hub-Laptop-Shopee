@@ -83,3 +83,17 @@ function like6() {
         toggleLike = true;
     }
 }
+
+function like7() {
+    const likeButton = document.getElementById("like7")
+    if (toggleLike) {
+        likeButton.src = "./../images/laptop-store-img/red-like.png";
+
+        toggleLike = false;
+    }
+    else {
+        likeButton.src = "./../images/laptop-store-img/blank-like.png";
+
+        toggleLike = true;
+    }
+}
