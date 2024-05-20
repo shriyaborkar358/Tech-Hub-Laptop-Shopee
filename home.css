@@ -58,6 +58,20 @@ body{
     margin: 0 3px;
 }
 
+.active {
+    border: 1px solid black;
+}
+
+.theme-dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.theme-Light {
+    background-color: #ffffff;
+    color: #000;
+}
+
 .home-img{
     height: 86vh;
     width: 100%;

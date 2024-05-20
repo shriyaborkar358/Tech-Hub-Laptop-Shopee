@@ -431,3 +431,24 @@ function dec12() {
    showTotal.innerText = `Total : ${quantity * 25489}`;
 }
 
+function darkMode() {
+   const dark = document.getElementById("dark");
+   dark.classList.add("active");
+
+   const light = document.getElementById("light");
+   light.classList.remove("active");
+
+   const themedark = document.getElementById("body");
+   themedark.className = "theme-dark";
+}
+
+function lightMode() {
+   const light = document.getElementById("light");
+   light.classList.add("active");
+
+   const dark = document.getElementById("dark");
+   dark.classList.remove("active");
+
+   const themelight = document.getElementById("body");
+   themelight.className = "theme-light";
+}

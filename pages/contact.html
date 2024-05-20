@@ -24,8 +24,8 @@
         <a href="./../pages/sign-up.html"> <button type="button" class="signup-btn">SignIn/Up</button></a>
 
         <div>
-            <img src="./../images/dark-mode.png" alt="Dark-theme" class="img-theme" />
-            <img src="./../images/light-mode.png" alt="Light-theme" class="img-theme" />
+            <img src="./../images/dark-mode.png" alt="Dark-theme" class="img-theme" onclick="darkMode()" id="dark"/>
+            <img src="./../images/light-mode.png" alt="Light-theme" class="img-theme" onclick="lightMode()" id="light" />
         </div>
 
     </div>
@@ -52,8 +52,10 @@
         </div>
 
         <h3 class="sign-up-seller">SIGN UP FOR NEWSLETTER</h3>
-        <input type="email" class="email-input" placeholder="Enter your email address.." />
-        <button type="submit" class="sub-btn" id="btn">Subscriber</button>
+        <form>
+            <input type="email" class="email-input" placeholder="Enter your email address.." />
+            <button type="submit" class="sub-btn" id="sub-btn">Subscriber</button>
+        </form>
     </div>
 
     <div class="shop-information">
@@ -140,7 +142,8 @@
         </div>
     </div>
 
-    <script src="javascript/index.js"> </script>
+    <script src="./../javascript/laptop.js"> </script>
+    <script src="./../javascript/index.js"> </script>
 
 </body>
 
