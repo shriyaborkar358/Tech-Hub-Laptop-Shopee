@@ -1,34 +1,33 @@
-.div-container{
+.div-container {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-.para-container{
+.para-container {
     margin-top: 30px;
-    margin-right: 20px;   
+    margin-right: 20px;
 }
 
-.about-info{
+.about-info {
     margin-left: 140px;
     font-size: 20px;
 }
 
-.about{
+.about {
     margin-left: 140px;
     font-size: 60px;
 }
 
-.about-img-1{
+.about-img-1 {
     height: 400px;
     margin: 50px;
 
 }
 
-.about-container{
+.about-container {
     height: 340px;
     width: auto;
     padding-left: 100px;
     padding-bottom: 30px;
-   
 }
