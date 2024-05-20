@@ -37,17 +37,21 @@
 }
 
 .product-card {
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     width: 300px;
     border-radius: 20px;
-    height: 560px;
+    height: 570px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 30px;
     margin-top: -15PX;
     padding: 10px 8px ;
     position: relative;
+    border: 1px solid snow;
 }
 
+.product-card:hover{
+    box-shadow: 0 0 5px rgb(169, 169, 176);
+    border: snow;
+}
 
 .heart{
     height: 35px;
