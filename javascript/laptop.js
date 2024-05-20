@@ -153,3 +153,17 @@ function like8() {
         toggleLike = true;
     }
  }
+
+ function like12() {
+    const likeButton = document.getElementById("like12")
+    if (toggleLike) {
+        likeButton.src = "./../images/laptop-store-img/red-like.png";
+ 
+        toggleLike = false;
+    }
+    else {
+        likeButton.src = "./../images/laptop-store-img/blank-like.png";
+ 
+        toggleLike = true;
+    }
+ }

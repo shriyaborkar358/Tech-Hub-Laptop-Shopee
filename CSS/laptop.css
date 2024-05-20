@@ -43,6 +43,7 @@
     height: 560px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 30px;
+    margin-top: -15PX;
     padding: 10px 8px ;
     position: relative;
 }

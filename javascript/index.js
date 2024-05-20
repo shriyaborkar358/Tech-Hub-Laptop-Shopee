@@ -401,3 +401,33 @@ function dec11() {
    showTotal.innerText = `Total : ${quantity * 8000}`;
 }
 
+function inc12() {
+   const quantityText = document.getElementById("quantity-text-12");
+   const showQuantity = document.getElementById("show-quantity-12");
+   const showTotal = document.getElementById("show-total-12");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity < 5) {
+      quantityText.innerText = ++quantity;
+   }
+   else {
+      alert("you cann't add more than 5 items ")
+   }
+   showQuantity.innerText = `Item : ${quantity} X 25,489`;
+   showTotal.innerText = `Total: ${quantity * 25489}`;
+}
+
+function dec12() {
+   const quantityText = document.getElementById("quantity-text-12");
+   const showQuantity = document.getElementById("show-quantity-12");
+   const showTotal = document.getElementById("show-total-12");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity > 1) {
+      quantityText.innerText = --quantity;
+   }
+   else {
+      alert("you cann't add less than 1 items")
+   }
+   showQuantity.innerText = `Item : ${quantity} X 25,489`;
+   showTotal.innerText = `Total : ${quantity * 25489}`;
+}
+
