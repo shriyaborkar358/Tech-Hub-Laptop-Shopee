@@ -83,7 +83,6 @@ function inc1() {
       alert("you cann't add more than 5 items ")
    }
    showQuantity.innerText = `Item : ${quantity} X 73,148`;
-
    showTotal.innerText = `Total: ${quantity * 73148}`;
 }
 
@@ -114,7 +113,6 @@ function inc2() {
       alert("you cann't add more than 5 items ")
    }
    showQuantity.innerText = `Item : ${quantity} X 83,780`;
-
    showTotal.innerText = `Total: ${quantity * 83780}`;
 }
 
@@ -145,7 +143,6 @@ function inc3() {
       alert("you cann't add more than 5 items ")
    }
    showQuantity.innerText = `Item : ${quantity} X 40,960`;
-
    showTotal.innerText = `Total: ${quantity * 40960}`;
 }
 
@@ -176,7 +173,6 @@ function inc4() {
       alert("you cann't add more than 5 items ")
    }
    showQuantity.innerText = `Item : ${quantity} X 28,999`;
-
    showTotal.innerText = `Total: ${quantity * 28999}`;
 }
 
@@ -207,7 +203,6 @@ function inc5() {
       alert("you cann't add more than 5 items ")
    }
    showQuantity.innerText = `Item : ${quantity} X 5,099`;
-
    showTotal.innerText = `Total: ${quantity * 5099}`;
 }
 
@@ -225,3 +220,34 @@ function dec5() {
    showQuantity.innerText = `Item : ${quantity} X 5,099`;
    showTotal.innerText = `Total : ${quantity * 5099}`;
 }
+
+function inc6() {
+   const quantityText = document.getElementById("quantity-text-6");
+   const showQuantity = document.getElementById("show-quantity-6");
+   const showTotal = document.getElementById("show-total-6");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity < 5) {
+      quantityText.innerText = ++quantity;
+   }
+   else {
+      alert("you cann't add more than 5 items ")
+   }
+   showQuantity.innerText = `Item : ${quantity} X 5,373`;
+   showTotal.innerText = `Total: ${quantity * 5373}`;
+}
+
+function dec6() {
+   const quantityText = document.getElementById("quantity-text-6");
+   const showQuantity = document.getElementById("show-quantity-6");
+   const showTotal = document.getElementById("show-total-6");
+   let quantity = parseInt(quantityText.innerText);
+   if (quantity > 1) {
+      quantityText.innerText = --quantity;
+   }
+   else {
+      alert("you cann't add less than 1 items")
+   }
+   showQuantity.innerText = `Item : ${quantity} X 5,373`;
+   showTotal.innerText = `Total : ${quantity * 5373}`;
+}
+
